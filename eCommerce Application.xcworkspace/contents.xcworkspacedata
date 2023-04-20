@@ -2,12 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "group:/Users/user/Desktop/Apps/eCommerce Application/eCommerce Application/Model/ProductCart+CoreDataClass.swift">
-   </FileRef>
-   <FileRef
-      location = "group:/Users/user/Desktop/Apps/eCommerce Application/eCommerce Application/Model/ProductCart+CoreDataProperties.swift">
-   </FileRef>
-   <FileRef
       location = "group:eCommerce Application.xcodeproj">
    </FileRef>
    <FileRef

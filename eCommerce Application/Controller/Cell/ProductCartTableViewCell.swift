@@ -29,7 +29,6 @@ class ProductCartTableViewCell: UITableViewCell {
     @IBAction func QuantityStepperValueChanged(_ sender: UIStepper) {
         QuantityLabel.text = "Q:\(Int(sender.value))"
         delegate?.StepperValueChanged(tag: sender.tag,value:Int(sender.value))
-//        vc.updateItem(item: vc.models[tag],quantity:quantityValue)
         
     }
     override func setSelected(_ selected: Bool, animated: Bool) {

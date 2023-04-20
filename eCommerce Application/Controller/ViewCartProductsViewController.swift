@@ -129,8 +129,6 @@ class ViewCartProductsViewController: UIViewController, UITableViewDelegate, UIT
     }
     
     func deleteItem(item : ProductCart) {
-//        TotalPrice = TotalPrice - Int(item.productPrice)
-//        updateTotalPrice(totalprice: TotalPrice)
         context.delete(item)
         do {
             try context.save()
